@@ -20,13 +20,21 @@ Configure Azure CLI:
 I created the the required infrastructure by means of three modules (which are in modules dir) with the name of aks,load_balancer, network. the main terraform file is in the root dir with the name of main.tf
 
 ├── main.tf
+
 ├── modules
+
 │   ├── aks
+
 │   │   └── main.tf
+
 │   ├── load_balancer
+
 │   │   └── main.tf
+
 │   └── network
+
 │       └── main.tf
+
 
 There is a Dockerfile and index.html for creating the image. The image has been created and is accessible on Docker Hub (hadimhn00/hello-world-webapp)
 
