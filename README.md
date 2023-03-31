@@ -44,7 +44,7 @@ There is a Dockerfile and index.html for creating the image. The image has been 
 
 ├── index.html
 
-There is a charts directory which contains the helm chart.(it is a simple chart which can be modified for more advanced usecases)
+There is a charts directory which contains the helm chart.(it is a simple chart which can be modified for more advanced use-cases)
 
 
 ## Deployment
@@ -75,7 +75,7 @@ verify that the pods are running:
  kubectl get pods
 ```
 
-Check the service to obtain the public iP address:
+Check the service to obtain the public IP address:
 
 ```
 kubectl get svc
