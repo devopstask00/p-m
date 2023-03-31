@@ -4,11 +4,15 @@
 ## Prerequisites
 
 Install Terraform: https://learn.hashicorp.com/tutorials/terraform/install-cli
+
 Install Azure CLI: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
+
 Install Docker: https://docs.docker.com/engine/install/
+
 Install kubectl: https://kubernetes.io/docs/tasks/tools/install-kubectl/
 
 Configure Azure CLI:
+
 ```az login```
 
 ## Structure
@@ -27,6 +31,7 @@ I created the the required infrastructure by means of three modules (which are i
 There is a Dockerfile and index.html for creating the image. The image has been created and is accessible on Docker Hub (hadimhn00/hello-world-webapp)
 
 ├── Dockerfile
+
 ├── index.html
 
 There is a charts directory which contains the helm chart.(it is a simple chart which can be modified for more advanced usecases)
